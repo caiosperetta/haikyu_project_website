@@ -1,0 +1,150 @@
+body {
+    background-color: #f19c1c;
+    margin: 0;
+    color: white;
+    font-family: 'montserrat', arial;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.imagem__topo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+header {
+    display: block;
+}
+
+.topo {
+    text-align: center;
+    color: #2f2c2e;
+}
+
+.topo h1 {
+    font-size: 100px;
+    margin-top: -320px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.topo p {
+    font-size: 30px;
+    margin-top: 225px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    background-color: #f4bc56;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 13px;
+    text-transform: uppercase;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin: 12px;
+    font-size: 20px;
+    border: 2px solid transparent;
+}
+
+li:hover {
+    color: #2f2c2e;
+    border-color: #2f2c2e;
+}
+
+.historia {
+    background-color: #2f2c2e;
+    border-radius: 8px;
+    width: 800px;
+    margin: auto;
+
+}
+
+.historia p {
+    margin: 15px;
+    padding-bottom: 20px;
+    hyphens: auto;
+}
+
+table {
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    margin: 60px;
+    text-transform: uppercase;
+}
+
+td img {
+    border-radius: 10px;
+    width: 150px;
+    margin: 30px;
+}
+
+.cards a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.cards a:hover {
+    color: #2f2c2e;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3rem;
+}
+
+.historia img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+.icon {
+    display: none;
+    margin-left: 5px;
+}
+
+nav ul li:hover .icon {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .imagem__topo img {
+        max-width: 100%;
+    }
+
+    .topo h1 {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 175px;
+    }
+
+    .topo p {
+        margin-top: 150px;
+    }
+
+    nav li {
+        padding: 4px;
+    }
+}
